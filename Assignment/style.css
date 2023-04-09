@@ -1,0 +1,123 @@
+.jumbotron {
+    background-color: white;
+    color: red;
+    border: 5px solid;
+}
+.jumbotron * {
+    padding-left: 10px;
+}
+body {
+    background-image: url("../assets/misc/papyrus.png");
+}
+.fa {
+    font-size: 50px;
+}
+#icons .btn {
+    display: block;
+    margin: auto;
+}
+.nature-gallery .nature-gallery-title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.card .card-img-top {
+    border: 1px solid;
+    border-radius: 4px;
+}
+.card .card-body {
+    color: white;
+}
+.malay-anthem-btn{
+    margin-bottom: 10px;
+}
+#malay-anthem-body{
+    border: 2px solid black;
+    background-color: red;
+    color: white;
+    margin: 0px -5px;
+    padding: 2opx 0px 10px 0px;
+}
+.anthem-body p{
+    margin: 10px 0px;
+    color: black;
+}
+.timeline{
+    position: relative;
+    border: 3px solid darkblue;
+}
+.timeline .container{
+    padding: 10px 35px;
+    width: 50%;
+    position: relative;
+}
+.timeline .content{
+    padding: 20px 14px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+}
+.timeline .left{
+    right: 25%;
+    text-align: right;
+}
+.timeline .right{
+    left: 25%;
+    text-align: left;
+}
+.timeline:after{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 50%;
+    width: 6px;
+    border: 3px solid darkblue;
+    content: "";
+    margin-left: -1.6px;
+}
+.timeline .container:after{
+    content: "";
+    top: 28px;
+    right: -14px;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-color: darkblue;
+    border: 4px solid orange;
+    border-radius: 50%;
+    z-index: 1;
+}
+.timeline .right:after{
+    left: -11px;
+}
+.timeline .container:before{
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-style: solid;
+    border-width: 15px;
+    top: 25px;
+}
+.timeline .left:before{
+    border-color: transparent transparent
+    transparent black;
+}
+.timeline .right:before{
+    border-color: transparent black transparent transparent;
+    left: 6px;
+}
+.navbar .navbar-brand img{
+    width: 40px;
+    height: 40px;
+}
+.navbar{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+h6{
+    color: brown;
+}
+h1{
+    text-align: center;
+}
